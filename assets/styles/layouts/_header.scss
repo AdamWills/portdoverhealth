@@ -1,0 +1,57 @@
+.banner {
+  background-color: $white;
+  border-bottom: 1px solid $brand-primary;
+
+  li a {
+    color: $brand-primary;
+    font-size: $font-size-lg;
+    padding: .425rem;
+  }
+
+  .active a {
+    background-color: $brand-secondary;
+    color: $white;
+  }
+
+  .flex-wrap {
+    @include media-breakpoint-up(sm) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  .navbar-brand img {
+    height: 80px;
+    @include media-breakpoint-up(sm) {
+      height: 120px;
+    }
+  }
+
+  .navbar-toggler {
+    border: 2px solid $brand-primary;
+    margin-top: 24px;
+    color: $brand-primary;
+  }
+
+  .navbar-toggleable-sm {
+    @include media-breakpoint-down(sm) {
+      clear: both;
+    }
+  }
+}
+
+.hero {
+  height: 1528/3400 * 100vw;
+  max-height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page-header {
+  background-color: $brand-primary;
+  padding: 2rem 0;
+  color: $white;
+  margin-bottom: 2rem;
+}

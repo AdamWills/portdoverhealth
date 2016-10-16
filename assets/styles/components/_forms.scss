@@ -13,3 +13,20 @@
   @extend .btn;
   @extend .btn-secondary;
 }
+
+span.wpcf7-not-valid-tip {
+  background-color: $brand-danger;
+  color: $white;
+  padding: 0.425rem;
+}
+
+div.wpcf7-validation-errors {
+  background-color: $brand-danger;
+  border-color: $brand-danger;
+  color: $white;
+}
+
+div.wpcf7-response-output {
+  padding: 0.425rem;;
+  margin: 0;
+}
